@@ -60,8 +60,8 @@ ARG FUNCTION_NAME
 ARG MONGO_URI
 
 ENV fprocess="./handler"
-ENV function_name="${FUNCTION_NAME}"
-ENV mongo_uri="${MONGO_URI}"
+ENV function_name="${FUNCTION_NAME:default-name}"
+ENV mongo_uri="${MONGO_URI:mongodb://username:password@host:port/defaultauthdb}"
 
 EXPOSE 8080
 
