@@ -1,5 +1,5 @@
 # What is this
-OpenFaaS golang template that uses [modified classic-watchdog](https://github.com/borodun/of-watchdog)
+OpenFaaS golang template that uses [modified classic-watchdog](https://github.com/borodun/of-watchdog). See [go classic template](https://docs.openfaas.com/cli/templates/#go-go-classic-template)
 
 
 ####Adding templates
