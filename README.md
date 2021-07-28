@@ -4,14 +4,14 @@ OpenFaaS golang template that uses [modified classic-watchdog](https://github.co
 
 ####Adding templates
 ```bash
-$ faas template pull https://github.com/borodun/of-templates
-$ faas new --list
+faas template pull https://github.com/borodun/of-templates
+faas new --list
 
 Languages available as templates:
 - cpu-go
 ```
 ####Creating new function
 ````bash
-$ faas new --lang cpu-go <function-name>
+faas new --lang cpu-go <function-name>
 ````
 
